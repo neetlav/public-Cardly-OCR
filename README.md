@@ -2,7 +2,8 @@
 
 Cardly turns photos of business cards into editable contacts. Review the result, save it in your browser, or export it as a VCF or CSV file.
 
-**[Open the live demo →](https://public-cardly-ocr.pages.dev/)**
+**[Use Cardly in your browser →](https://public-cardly-ocr.pages.dev/)**  
+No self-hosting needed—configure your own browser API key in Settings.
 
 You bring your own AI provider. Cardly has no user accounts and does not run its own database.
 
