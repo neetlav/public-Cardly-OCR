@@ -30,6 +30,7 @@ fieldset{border:1px solid var(--border);background:var(--soft-surface);margin:24
 .capture.primary,.primary-button,.accent-button,.compact-action,.toast{color:var(--on-primary)}
 .capture.primary>.material-symbols-rounded{color:var(--on-primary)}
 .contact-menu{box-shadow:0 8px 18px var(--shadow)}
+.install-card{position:relative;display:flex;gap:12px;border:1px solid var(--border);background:var(--soft-surface);padding:16px;margin:-6px 0 16px}.install-card-icon{width:40px;height:40px;flex:0 0 40px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)}.install-card-icon .material-symbols-rounded{font-size:23px}.install-card h2{font-size:16px}.install-card p{color:var(--text-secondary);font-size:13px;line-height:1.4;margin:4px 28px 0 0}.install-card .install-instructions{margin-top:10px}.install-dismiss{position:absolute;right:7px;top:7px}.install-button{margin-top:12px;min-height:36px;padding:7px 11px;font-size:10px}
 nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
 nav button{min-width:0;width:100%;padding:10px 2px}
 nav .material-symbols-rounded{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24}
