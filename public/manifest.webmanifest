@@ -1,0 +1,17 @@
+{
+  "name": "Cardly — Business Card Scanner",
+  "short_name": "Cardly",
+  "description": "Capture business cards and turn them into editable contacts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fcf9f4",
+  "theme_color": "#fcf9f4",
+  "icons": [
+    {
+      "src": "/cardly-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
