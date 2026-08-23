@@ -2,6 +2,10 @@ import { ChangeEvent, useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => { void navigator.serviceWorker.register('/sw.js').catch(() => undefined); });
+}
+
 type Provider = 'openai' | 'gemini' | 'anthropic' | 'compatible';
 type Mode = 'cloudflare' | 'browser';
 type Page = 'scan' | 'contacts' | 'settings' | 'review' | 'guide';
